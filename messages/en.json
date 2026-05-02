@@ -1,12 +1,61 @@
 {
-  "Home": {
-    "title": "To get started, edit the page.tsx file.",
-    "description": "Looking for a starting point or more instructions? Head over to",
-    "templates": "Templates",
-    "or": "or the",
-    "learning": "Learning",
-    "center": "center",
-    "deploy": "Deploy Now",
-    "documentation": "Documentation"
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "about": "About Us",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Mongolia's #1 Construction Materials",
+    "title": "Quality Construction Materials for Your Project's Success",
+    "description": "Metal Remicon, a leading company in the construction industry, delivers high-quality concrete, reinforced concrete products, and construction materials.",
+    "primaryCta": "View Products",
+    "secondaryCta": "Learn More"
+  },
+  "trust": {
+    "feature1": "ISO 9001 Quality Assurance",
+    "feature2": "24-Hour Delivery",
+    "feature3": "Professional Consultation",
+    "feature4": "Guaranteed Quality"
+  },
+  "categories": {
+    "title": "Product Categories",
+    "viewAll": "View All",
+    "cat1": "Concrete Products",
+    "cat2": "Reinforced Concrete",
+    "cat3": "Construction Materials",
+    "cat4": "Exterior Products",
+    "count1": "45 products",
+    "count2": "32 products",
+    "count3": "28 products",
+    "count4": "19 products",
+    "viewBtn": "View"
+  },
+  "products": {
+    "title": "Featured Products",
+    "viewAll": "View All",
+    "addToCart": "Add to Cart"
+  },
+  "stats": {
+    "stat1": "15+",
+    "label1": "Years of Experience",
+    "stat2": "500+",
+    "label2": "Product Types",
+    "stat3": "1000+",
+    "label3": "Successful Projects",
+    "stat4": "50+",
+    "label4": "Partners"
+  },
+  "cta": {
+    "title": "Looking for quality materials for your project?",
+    "description": "We will offer you the most suitable solution",
+    "button": "Contact Us"
+  },
+  "footer": {
+    "description": "Leading company in the construction industry. Committed to quality and reliability.",
+    "products": "Products",
+    "company": "Company",
+    "contact": "Contact",
+    "copyright": "© 2025 Metal Remicon. All rights reserved."
   }
 }

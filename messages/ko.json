@@ -1,0 +1,61 @@
+{
+  "nav": {
+    "home": "홈",
+    "products": "제품",
+    "about": "회사 소개",
+    "contact": "문의"
+  },
+  "hero": {
+    "badge": "몽골의 1위 건설 자재",
+    "title": "프로젝트 성공을 위한 고품질 건설 자재",
+    "description": "건설 업계의 선도 기업인 Metal Remicon은 고품질 콘크리트, 철근 콘크리트 제품, 건설 자재를 공급합니다.",
+    "primaryCta": "제품 보기",
+    "secondaryCta": "자세히 보기"
+  },
+  "trust": {
+    "feature1": "ISO 9001 품질 보증",
+    "feature2": "24시간 배송",
+    "feature3": "전문 상담",
+    "feature4": "품질 보증"
+  },
+  "categories": {
+    "title": "제품 카테고리",
+    "viewAll": "전체 보기",
+    "cat1": "콘크리트 제품",
+    "cat2": "철근 콘크리트",
+    "cat3": "건설 자재",
+    "cat4": "외부 제품",
+    "count1": "45개 제품",
+    "count2": "32개 제품",
+    "count3": "28개 제품",
+    "count4": "19개 제품",
+    "viewBtn": "보기"
+  },
+  "products": {
+    "title": "추천 제품",
+    "viewAll": "전체 보기",
+    "addToCart": "장바구니에 담기"
+  },
+  "stats": {
+    "stat1": "15+",
+    "label1": "년의 경험",
+    "stat2": "500+",
+    "label2": "제품 종류",
+    "stat3": "1000+",
+    "label3": "성공적인 프로젝트",
+    "stat4": "50+",
+    "label4": "파트너"
+  },
+  "cta": {
+    "title": "프로젝트를 위한 고품질 자재를 찾고 계신가요?",
+    "description": "가장 적합한 솔루션을 제안해 드리겠습니다",
+    "button": "문의하기"
+  },
+  "footer": {
+    "description": "건설 업계의 선도 기업. 품질과 신뢰성을 중시합니다.",
+    "products": "제품",
+    "company": "회사",
+    "contact": "문의",
+    "copyright": "© 2025 Metal Remicon. 모든 권리 보유."
+  }
+}

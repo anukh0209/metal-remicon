@@ -1,0 +1,61 @@
+{
+  "nav": {
+    "home": "ホーム",
+    "products": "製品",
+    "about": "会社概要",
+    "contact": "お問い合わせ"
+  },
+  "hero": {
+    "badge": "モンゴルNo.1建設資材",
+    "title": "プロジェクトの成功のための高品質建設資材",
+    "description": "建設業界のリーディングカンパニーであるMetal Remiconは、高品質なコンクリート、鉄筋コンクリート製品、建設資材を提供しています。",
+    "primaryCta": "製品を見る",
+    "secondaryCta": "詳細を見る"
+  },
+  "trust": {
+    "feature1": "ISO 9001品質保証",
+    "feature2": "24時間配送",
+    "feature3": "専門的な相談",
+    "feature4": "品質保証"
+  },
+  "categories": {
+    "title": "製品カテゴリー",
+    "viewAll": "すべて見る",
+    "cat1": "コンクリート製品",
+    "cat2": "鉄筋コンクリート",
+    "cat3": "建設資材",
+    "cat4": "外装製品",
+    "count1": "45製品",
+    "count2": "32製品",
+    "count3": "28製品",
+    "count4": "19製品",
+    "viewBtn": "見る"
+  },
+  "products": {
+    "title": "おすすめ製品",
+    "viewAll": "すべて見る",
+    "addToCart": "カートに追加"
+  },
+  "stats": {
+    "stat1": "15+",
+    "label1": "年の経験",
+    "stat2": "500+",
+    "label2": "製品タイプ",
+    "stat3": "1000+",
+    "label3": "成功プロジェクト",
+    "stat4": "50+",
+    "label4": "パートナー"
+  },
+  "cta": {
+    "title": "プロジェクト用の高品質資材をお探しですか？",
+    "description": "最適なソリューションをご提案します",
+    "button": "お問い合わせ"
+  },
+  "footer": {
+    "description": "建設業界のリーディングカンパニー。品質と信頼性を重視しています。",
+    "products": "製品",
+    "company": "会社",
+    "contact": "お問い合わせ",
+    "copyright": "© 2025 Metal Remicon. 全著作権所有。"
+  }
+}
