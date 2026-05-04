@@ -1,8 +1,11 @@
-import { useTranslations } from "next-intl";
+"use client";
+
+import { useTranslations, useLocale } from "next-intl";
 import Link from "next/link";
 
 export default function HeroSection() {
   const t = useTranslations("hero");
+  const locale = useLocale();
 
   return (
     <section className="w-full min-h-[560px] px-12 py-20 flex items-center justify-between gap-12 bg-[#1A1A2E]">
@@ -21,13 +24,13 @@ export default function HeroSection() {
 
         <div className="flex gap-4">
           <Link
-            href="/products"
+            href={`/${locale}/products`}
             className="px-7 py-3.5 bg-[#F26522] text-white rounded-lg font-semibold hover:bg-[#E55A1B] transition-colors"
           >
             {t("primaryCta")}
           </Link>
           <Link
-            href="/about"
+            href={`/${locale}/about`}
             className="px-7 py-3.5 border border-[#3A3A52] text-white rounded-lg font-medium hover:border-[#F26522] transition-colors"
           >
             {t("secondaryCta")}

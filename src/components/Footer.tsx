@@ -1,8 +1,11 @@
-import { useTranslations } from "next-intl";
+"use client";
+
+import { useTranslations, useLocale } from "next-intl";
 import Link from "next/link";
 
 export default function Footer() {
   const t = useTranslations("footer");
+  const locale = useLocale();
 
   return (
     <footer className="w-full bg-[#16213E] py-16 px-12">
@@ -20,32 +23,32 @@ export default function Footer() {
         <div className="flex gap-16">
           <div className="flex flex-col gap-3">
             <h4 className="text-white font-semibold">{t("products")}</h4>
-            <Link href="/products/concrete" className="text-[#B8B8C8] text-sm hover:text-white transition-colors">
+            <Link href={`/${locale}/products/concrete`} className="text-[#B8B8C8] text-sm hover:text-white transition-colors">
               Бетон эдлэл
             </Link>
-            <Link href="/products/reinforced" className="text-[#B8B8C8] text-sm hover:text-white transition-colors">
+            <Link href={`/${locale}/products/reinforced`} className="text-[#B8B8C8] text-sm hover:text-white transition-colors">
               Төмөр бетон
             </Link>
-            <Link href="/products/materials" className="text-[#B8B8C8] text-sm hover:text-white transition-colors">
+            <Link href={`/${locale}/products/materials`} className="text-[#B8B8C8] text-sm hover:text-white transition-colors">
               Барилгын материал
             </Link>
-            <Link href="/products/exterior" className="text-[#B8B8C8] text-sm hover:text-white transition-colors">
+            <Link href={`/${locale}/products/exterior`} className="text-[#B8B8C8] text-sm hover:text-white transition-colors">
               Гаднах бүтээгдэхүүн
             </Link>
           </div>
 
           <div className="flex flex-col gap-3">
             <h4 className="text-white font-semibold">{t("company")}</h4>
-            <Link href="/about" className="text-[#B8B8C8] text-sm hover:text-white transition-colors">
+            <Link href={`/${locale}/about`} className="text-[#B8B8C8] text-sm hover:text-white transition-colors">
               Бидний тухай
             </Link>
-            <Link href="/projects" className="text-[#B8B8C8] text-sm hover:text-white transition-colors">
+            <Link href={`/${locale}/projects`} className="text-[#B8B8C8] text-sm hover:text-white transition-colors">
               Төслүүд
             </Link>
-            <Link href="/news" className="text-[#B8B8C8] text-sm hover:text-white transition-colors">
+            <Link href={`/${locale}/news`} className="text-[#B8B8C8] text-sm hover:text-white transition-colors">
               Мэдээ мэдээлэл
             </Link>
-            <Link href="/careers" className="text-[#B8B8C8] text-sm hover:text-white transition-colors">
+            <Link href={`/${locale}/careers`} className="text-[#B8B8C8] text-sm hover:text-white transition-colors">
               Ажлын байр
             </Link>
           </div>

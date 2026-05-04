@@ -1,4 +1,6 @@
-import { useTranslations } from "next-intl";
+"use client";
+
+import { useTranslations, useLocale } from "next-intl";
 import Link from "next/link";
 
 const products = [
@@ -10,13 +12,14 @@ const products = [
 
 export default function ProductsSection() {
   const t = useTranslations("products");
+  const locale = useLocale();
 
   return (
     <section className="w-full py-16 px-12 bg-[#1A1A2E]">
       <div className="max-w-7xl mx-auto">
         <div className="flex justify-between items-center mb-8">
           <h2 className="text-white text-[32px] font-bold">{t("title")}</h2>
-          <Link href="/products" className="text-[#F26522] text-[15px] hover:underline">
+          <Link href={`/${locale}/products`} className="text-[#F26522] text-[15px] hover:underline">
             {t("viewAll")} →
           </Link>
         </div>

@@ -1,9 +1,12 @@
-import { useTranslations } from "next-intl";
+"use client";
+
+import { useTranslations, useLocale } from "next-intl";
 import Link from "next/link";
 import { Search, ShoppingCart } from "lucide-react";
 
 export default function Header() {
   const t = useTranslations("nav");
+  const locale = useLocale();
 
   return (
     <header className="w-full h-[72px] px-12 flex items-center justify-between bg-[#1A1A2E] border-b border-[#3A3A52]">
@@ -15,16 +18,16 @@ export default function Header() {
       </div>
 
       <nav className="flex items-center gap-8">
-        <Link href="/" className="text-white text-[15px]">
+        <Link href={`/${locale}`} className="text-white text-[15px]">
           {t("home")}
         </Link>
-        <Link href="/products" className="text-[#B8B8C8] text-[15px] hover:text-white transition-colors">
+        <Link href={`/${locale}/products`} className="text-[#B8B8C8] text-[15px] hover:text-white transition-colors">
           {t("products")}
         </Link>
-        <Link href="/about" className="text-[#B8B8C8] text-[15px] hover:text-white transition-colors">
+        <Link href={`/${locale}/about`} className="text-[#B8B8C8] text-[15px] hover:text-white transition-colors">
           {t("about")}
         </Link>
-        <Link href="/contact" className="text-[#B8B8C8] text-[15px] hover:text-white transition-colors">
+        <Link href={`/${locale}/contact`} className="text-[#B8B8C8] text-[15px] hover:text-white transition-colors">
           {t("contact")}
         </Link>
       </nav>
